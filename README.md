@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Network Basic Nodes for n8n
 
 A comprehensive n8n node package that provides TCP and UDP network functionality with specialized client and server nodes.
@@ -363,8 +362,3 @@ nodes/
 ## License
 
 MIT
-
-## Contributing
-
->>>>>>> eaf0cdaead5b43c13af0b4b103f1729f376d372f
-Contributions are welcome. Please open an issue or pull request to suggest changes or improvements. 
