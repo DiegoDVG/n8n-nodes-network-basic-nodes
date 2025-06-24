@@ -1,12 +1,19 @@
 {
 	"name": "n8n-nodes-network-basic-nodes",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "n8n basic network nodes to send data via TCP and UDP protocols.",
 	"keywords": [
 		"n8n-community-node-package"
 	],
 	"license": "MIT",
-	"homepage": "https://n8n.io",
+	"homepage": "https://github.com/DiegoDVG/n8n-nodes-network-basic-nodes#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DiegoDVG/n8n-nodes-network-basic-nodes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/DiegoDVG/n8n-nodes-network-basic-nodes/issues"
+	},
 	"author": {
 		"name": "Diego Vazquez Gonzalez",
 		"email": "contacto@diegovazquez.me"
