@@ -62,3 +62,8 @@ INSTRUCCIONES_INSTALACION.md
 
 # git
 .gitconfig
+
+# Configuration files
+.prettierrc.js
+.prettierrc
+.editorconfig
