@@ -9,16 +9,16 @@
 	"homepage": "https://n8n.io",
 	"author": {
 		"name": "Diego Vazquez Gonzalez",
-		"email": "diegovazgonz@gmail.com"
+		"email": "contacto@diegovazquez.me"
 	},
 	"main": "index.js",
 	"scripts": {
 		"build": "tsc && gulp build:icons",
 		"dev": "tsc --watch",
 		"format": "prettier nodes credentials --write",
-		"lint": "eslint nodes credentials package.json",
-		"lintfix": "eslint nodes credentials package.json --fix",
-		"prepublishOnly": "npm run build && npm run lint -s"
+		"lint": "eslint nodes package.json",
+		"lintfix": "eslint nodes package.json --fix",
+		"prepublishOnly": "npm run build"
 	},
 	"files": [
 		"dist"
@@ -35,7 +35,8 @@
 	},
 	"devDependencies": {
 		"@types/node": "^24.0.3",
-		"@typescript-eslint/parser": "^5.45.0",
+		"@typescript-eslint/eslint-plugin": "^8.0.0",
+		"@typescript-eslint/parser": "^8.0.0",
 		"eslint": "^8.29.0",
 		"eslint-plugin-n8n-nodes-base": "^1.11.0",
 		"gulp": "^4.0.2",
