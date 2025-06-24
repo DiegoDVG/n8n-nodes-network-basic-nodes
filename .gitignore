@@ -39,7 +39,6 @@ typings/
 .env
 
 # Build directories
-dist/
 build/
 
 # IDE/Editor files
@@ -62,6 +61,4 @@ Thumbs.db
 INSTRUCCIONES_INSTALACION.md
 
 # git
-.gitconfig"node_modules/" 
-"dist/" 
-".env" 
+.gitconfig
