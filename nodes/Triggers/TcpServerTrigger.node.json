@@ -1,0 +1,4 @@
+{
+	"node": "TcpServerTrigger.node.ts",
+	"nodeClass": "TcpServerTrigger"
+} 

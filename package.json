@@ -11,10 +11,6 @@
 		"name": "Diego Vazquez Gonzalez",
 		"email": "diegovazgonz@gmail.com"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/yourusername/n8n-nodes-network-basic-nodes.git"
-	},
 	"main": "index.js",
 	"scripts": {
 		"build": "tsc && gulp build:icons",
@@ -31,7 +27,10 @@
 		"n8nNodesApiVersion": 1,
 		"credentials": [],
 		"nodes": [
-			"dist/nodes/NetworkSender/NetworkSender.node.js"
+			"dist/nodes/TCP/TcpClient.node.js",
+			"dist/nodes/UDP/UdpClient.node.js",
+			"dist/nodes/Triggers/TcpServerTrigger.node.js",
+			"dist/nodes/Triggers/UdpServerTrigger.node.js"
 		]
 	},
 	"devDependencies": {

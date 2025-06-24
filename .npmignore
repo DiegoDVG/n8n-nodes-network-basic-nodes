@@ -1,0 +1,79 @@
+# Source files - only include compiled dist/
+nodes/
+*.ts
+!dist/
+
+# Development dependencies and configs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Development configuration files
+.eslintrc.js
+.prettierrc.js
+tsconfig.json
+gulpfile.js
+
+# Git files
+.git/
+.gitignore
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test files
+test/
+tests/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Coverage and testing
+coverage/
+.nyc_output
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn files
+.yarn-integrity
+yarn.lock
+
+# Documentation that shouldn't be in npm package
+INSTRUCCIONES_INSTALACION.md
+docs/
+
+# Build artifacts that aren't needed
+build/
+src/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
