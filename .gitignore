@@ -62,4 +62,6 @@ Thumbs.db
 INSTRUCCIONES_INSTALACION.md
 
 # git
-.gitconfig
+.gitconfig"node_modules/" 
+"dist/" 
+".env" 
