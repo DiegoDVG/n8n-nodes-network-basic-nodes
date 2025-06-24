@@ -1,0 +1,16 @@
+{
+	"node": "n8n-nodes-base.NetworkBasicNodes",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Communication"
+	],
+	"resources": {
+		"credentialDocumentation": [],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.n8n.io/integrations/creating-nodes/"
+			}
+		]
+	}
+} 
